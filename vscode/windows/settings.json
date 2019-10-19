@@ -1,0 +1,50 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 0,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "breadcrumbs.symbolSortOrder": "name",
+    "python.autoUpdateLanguageServer": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=255",
+        "--ignore",
+        "E402"
+    ],
+    "git.confirmSync": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // Controls if quick suggestions should show up while typing
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.disableExtension": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.eol": "\n",
+    "[tsv]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    "diffEditor.originalEditable": true
+}
